@@ -1,0 +1,14 @@
+body {
+    background-color: #f8f9fa; /* Color de fondo suave */
+  }
+  
+  .chat-container {
+    max-height: 400px; /* Ajusta la altura máxima */
+    overflow-y: auto; /* Agrega un scroll si es necesario */
+  }
+  
+  .message {
+    border-bottom: 1px solid #dee2e6; /* Línea divisoria entre mensajes */
+    padding: 10px; /* Espaciado interior */
+  }
+  

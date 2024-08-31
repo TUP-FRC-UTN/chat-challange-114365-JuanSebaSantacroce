@@ -1,0 +1,9 @@
+.conversacion {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  app-chat-box {
+    width: 48%;
+  }
+  

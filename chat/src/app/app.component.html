@@ -1,0 +1,14 @@
+<!-- app.component.html -->
+<div class="container mt-3">
+  <div class="card">
+    <app-chat-box [mensajes]="mensajes"></app-chat-box>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <app-user-message-sender [usuario]="'Pepe'" (mensajeEnviado)="agregarMensaje($event)"></app-user-message-sender>
+    </div>
+    <div class="col-md-6 mb-3">
+      <app-user-message-sender [usuario]="'Maria'" (mensajeEnviado)="agregarMensaje($event)"></app-user-message-sender>
+    </div>
+  </div>
+  </div>
+</div>
